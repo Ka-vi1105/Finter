@@ -1,0 +1,116 @@
+body{
+    background-color: #000000;
+    }
+
+.chart-card{
+    background-color: #191919}
+
+#.main-svg {
+       background-color : #342A41}
+
+@media screen and (max-width: 900px) {
+   .col {
+      width: 50%;
+   }
+}
+@media screen and (max-width: 600px) {
+   .col {
+      width: 100%;
+   }
+}
+
+@media screen and  (max-width: 500px) {
+   .col {
+       width: 70%;
+       }
+}
+
+#ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: black;
+}
+
+#li {
+  float: right;
+}
+
+#li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  padding-right: 20px;
+  padding-bottom: 40px;
+  width: 100%;
+  background-color: #191919;
+  justify-content: space-between;
+}
+
+.flex-container > {
+  margin: 50px;
+ }
+
+.column-flex {
+   display: flex;
+   flex-direction: column;
+   flex-wrap: wrap;
+   padding-bottom: 40px;
+   width: 100%;
+   justify-content: center;
+   align-items: center;
+   }
+
+.single-chart-flex{
+   display: flex;
+   padding-bottom: 40px;
+   justify-content: center;
+   width: 100%
+   align-items: center;
+   background-color: #191919;
+   }
+
+.dash-chart tr{
+    height: 70px;
+    }
+
+.dash-chart-2 {
+  width: 30%}
+
+.chart-line {
+  width: 30%;
+  }
+
+.page-content {
+  background-color: #191919;
+  }
+
+
+@media (min-width: 1200px) {
+    .container{
+        max-width: 100%;
+    }
+}
+
+.container-fluid {
+  @include make-container();
+}
+
+/* _navbar.scss:148 */
+.container-fluid {
+  padding-right: 0;
+  padding-left: 0;
+}
+
+.chart_pie {
+  width: 30%;
+  }
+
